@@ -1,10 +1,11 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: url('../img/main.jpg');
     font-family: 'Baloo Bhai 2', cursive;
     height: 700px;
+    background: url('/main.jpg');
 }
+
 
 .left {
     display: inline-block;
@@ -14,6 +15,7 @@ body {
     line-height: 0px;
     font-size: 20px;
 }
+
 
 .mid {
     width: 70%;
