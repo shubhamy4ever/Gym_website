@@ -1,0 +1,38 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Shubham Fitness
+  link(rel='stylesheet', href='https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap')
+  style 
+    include ../css/style.css
+body
+header.header
+  .left
+    .image
+      img(src='/gym-dumbell.png' alt='')
+    .logo shubham Fitness
+  .mid
+    ul
+      li
+        a(href='#') Home
+      li
+        a(href='#') About us
+      li
+        a(href='#') Fitness calculator
+      li
+        a(href='#') contact us
+  .right
+    button.btn Call Now
+    button.btn Email Now
+.container
+  h2 Join The best gym worldwide
+  form(action='/gym',method="POST")
+    .formgroup
+      input(type='text' name="name"  placeholder='Enter Your Name')
+      input(type='text' name='age'  placeholder='Enter Your Age')
+      input(type='text' name='gender'  placeholder='Enter Your Gender')
+      input(type='text' name='locality'  placeholder='Enter Your Locality')
+      .submitnow
+        button.btn Submit Now
